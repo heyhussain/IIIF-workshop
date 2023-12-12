@@ -6,6 +6,63 @@
   "type" : "Manifest",
   "@context" : "http://iiif.io/api/presentation/3/context.json",
   "items" : [ {
+    "width" : 2759,
+    "id" : "https://heyhussain.github.io/IIIF-workshop/images/20070413-centralschoolofart/canvas/",
+    "label" : {
+      "none" : [ "20070413-centralschoolofart" ]
+    },
+    "type" : "Canvas",
+    "items" : [ {
+      "id" : "https://heyhussain.github.io/IIIF-workshop/images/20070413-centralschoolofart/AnnoPage/",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "motivation" : "Painting",
+        "id" : "https://heyhussain.github.io/IIIF-workshop/images/20070413-centralschoolofart/annotation/",
+        "type" : "Annotation",
+        "body" : {
+          "service" : [ {
+            "tiles" : [ {
+              "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
+              "width" : 1024,
+              "height" : 1024
+            } ],
+            "protocol" : "http://iiif.io/api/image",
+            "sizes" : [ {
+              "width" : 87,
+              "height" : 55
+            }, {
+              "width" : 173,
+              "height" : 109
+            }, {
+              "width" : 345,
+              "height" : 218
+            }, {
+              "width" : 690,
+              "height" : 435
+            }, {
+              "width" : 1380,
+              "height" : 870
+            }, {
+              "width" : 2759,
+              "height" : 1739
+            } ],
+            "profile" : "http://iiif.io/api/image/2/level0.json",
+            "width" : 2759,
+            "@id" : "https://heyhussain.github.io/IIIF-workshop/images/20070413-centralschoolofart",
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "height" : 1739
+          } ],
+          "format" : "image/jpeg",
+          "width" : 2759,
+          "id" : "https://heyhussain.github.io/IIIF-workshop/images/20070413-centralschoolofart/full/full/0/default.jpg",
+          "type" : "Image",
+          "height" : 1739
+        },
+        "target" : "https://heyhussain.github.io/IIIF-workshop/images/20070413-centralschoolofart/canvas/"
+      } ]
+    } ],
+    "height" : 1739
+  }, {
     "width" : 3136,
     "id" : "https://heyhussain.github.io/IIIF-workshop/images/20140920_134804/canvas/",
     "label" : {

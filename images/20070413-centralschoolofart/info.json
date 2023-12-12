@@ -1,0 +1,32 @@
+{
+  "tiles" : [ {
+    "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
+    "width" : 1024,
+    "height" : 1024
+  } ],
+  "protocol" : "http://iiif.io/api/image",
+  "sizes" : [ {
+    "width" : 87,
+    "height" : 55
+  }, {
+    "width" : 173,
+    "height" : 109
+  }, {
+    "width" : 345,
+    "height" : 218
+  }, {
+    "width" : 690,
+    "height" : 435
+  }, {
+    "width" : 1380,
+    "height" : 870
+  }, {
+    "width" : 2759,
+    "height" : 1739
+  } ],
+  "profile" : "http://iiif.io/api/image/2/level0.json",
+  "width" : 2759,
+  "@id" : "https://heyhussain.github.io/IIIF-workshop/images/20070413-centralschoolofart",
+  "@context" : "http://iiif.io/api/image/2/context.json",
+  "height" : 1739
+}

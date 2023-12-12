@@ -6,6 +6,63 @@
   "type" : "Manifest",
   "@context" : "http://iiif.io/api/presentation/3/context.json",
   "items" : [ {
+    "width" : 3136,
+    "id" : "https://heyhussain.github.io/IIIF-workshop/images/20140920_134804/canvas/",
+    "label" : {
+      "none" : [ "20140920_134804" ]
+    },
+    "type" : "Canvas",
+    "items" : [ {
+      "id" : "https://heyhussain.github.io/IIIF-workshop/images/20140920_134804/AnnoPage/",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "motivation" : "Painting",
+        "id" : "https://heyhussain.github.io/IIIF-workshop/images/20140920_134804/annotation/",
+        "type" : "Annotation",
+        "body" : {
+          "service" : [ {
+            "tiles" : [ {
+              "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
+              "width" : 1024,
+              "height" : 1024
+            } ],
+            "protocol" : "http://iiif.io/api/image",
+            "sizes" : [ {
+              "width" : 98,
+              "height" : 315
+            }, {
+              "width" : 196,
+              "height" : 630
+            }, {
+              "width" : 392,
+              "height" : 1260
+            }, {
+              "width" : 784,
+              "height" : 2520
+            }, {
+              "width" : 1568,
+              "height" : 5040
+            }, {
+              "width" : 3136,
+              "height" : 10080
+            } ],
+            "profile" : "http://iiif.io/api/image/2/level0.json",
+            "width" : 3136,
+            "@id" : "https://heyhussain.github.io/IIIF-workshop/images/20140920_134804",
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "height" : 10080
+          } ],
+          "format" : "image/jpeg",
+          "width" : 3136,
+          "id" : "https://heyhussain.github.io/IIIF-workshop/images/20140920_134804/full/full/0/default.jpg",
+          "type" : "Image",
+          "height" : 10080
+        },
+        "target" : "https://heyhussain.github.io/IIIF-workshop/images/20140920_134804/canvas/"
+      } ]
+    } ],
+    "height" : 10080
+  }, {
     "width" : 3040,
     "id" : "https://heyhussain.github.io/IIIF-workshop/images/20160831_142221/canvas/",
     "label" : {

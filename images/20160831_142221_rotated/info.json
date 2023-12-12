@@ -1,0 +1,32 @@
+{
+  "tiles" : [ {
+    "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
+    "width" : 1024,
+    "height" : 1024
+  } ],
+  "protocol" : "http://iiif.io/api/image",
+  "sizes" : [ {
+    "width" : 243,
+    "height" : 95
+  }, {
+    "width" : 485,
+    "height" : 190
+  }, {
+    "width" : 970,
+    "height" : 380
+  }, {
+    "width" : 1940,
+    "height" : 760
+  }, {
+    "width" : 3880,
+    "height" : 1520
+  }, {
+    "width" : 7760,
+    "height" : 3040
+  } ],
+  "profile" : "http://iiif.io/api/image/2/level0.json",
+  "width" : 7760,
+  "@id" : "https://heyhussain.github.io/IIIF-workshop/images/20160831_142221_rotated",
+  "@context" : "http://iiif.io/api/image/2/context.json",
+  "height" : 3040
+}

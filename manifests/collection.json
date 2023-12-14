@@ -1,0 +1,13 @@
+{
+  "id" : "https://heyhussain.github.io/IIIF-workshop/manifests/collection.json",
+  "label" : {
+    "en" : [ "All manifests loaded in heyhussain/IIIF-workshop project" ]
+  },
+  "type" : "Collection",
+  "@context" : "http://iiif.io/api/presentation/3/context.json",
+  "items" : [ {
+    "@type" : "sc:Manifest",
+    "@id" : "https://heyhussain.github.io/IIIF-workshop/manifests/manifest.json",
+    "label" : "Hussain's Japan Manifest"
+  } ]
+}

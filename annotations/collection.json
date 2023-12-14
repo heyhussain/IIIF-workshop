@@ -1,0 +1,7 @@
+{
+  "@type" : "sc:Layer",
+  "otherContent" : [ "https://heyhussain.github.io/IIIF-workshop/annotations/annotations.json" ],
+  "@id" : "https://heyhussain.github.io/IIIF-workshop/annotations/collection.json",
+  "label" : "All annotations loaded in heyhussain/IIIF-workshop project",
+  "@context" : "http://iiif.io/api/presentation/2/context.json"
+}

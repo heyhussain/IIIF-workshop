@@ -1,0 +1,93 @@
+{
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
+  "@id" : "https://heyhussain.github.io/IIIF-workshop/manifests/manifest.json",
+  "@type" : "sc:Manifest",
+  "label" : "Hussain's Japan Manifest",
+  "metadata" : [ ],
+  "description" : [ {
+    "@value" : "Japan sights",
+    "@language" : "en"
+  } ],
+  "license" : "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "attribution" : "@heyhussain",
+  "sequences" : [ {
+    "@id" : "http://fd35726b-7394-41b5-9755-db9b2f625a25",
+    "@type" : "sc:Sequence",
+    "label" : [ {
+      "@value" : "Normal Sequence",
+      "@language" : "en"
+    } ],
+    "canvases" : [ {
+      "@id" : "http://0e58078a-1a45-4db8-9897-9bd977285c67",
+      "@type" : "sc:Canvas",
+      "label" : "View of Tokyo from Tokyo Metropolitan Government Building, Shinjuku",
+      "height" : 3040,
+      "width" : 7760,
+      "thumbnail" : "https://heyhussain.github.io/IIIF-workshop/images/20160831_142221_rotated/full/243,/0/default.jpg",
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://9c8c40bc-18e7-4add-9731-fbd0cd1a31e7",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://heyhussain.github.io/IIIF-workshop/images/20160831_142221_rotated/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://heyhussain.github.io/IIIF-workshop/images/20160831_142221_rotated",
+            "profile" : "http://iiif.io/api/image/2/level0.json"
+          },
+          "height" : 3040,
+          "width" : 7760
+        },
+        "on" : "http://0e58078a-1a45-4db8-9897-9bd977285c67"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://0c1ca601-a667-4850-89a9-6e5551be77ed",
+      "@type" : "sc:Canvas",
+      "label" : "Kinkaku-ji (Golden Pavilion), Kyoto",
+      "height" : 2944,
+      "width" : 7776,
+      "thumbnail" : "https://heyhussain.github.io/IIIF-workshop/images/20140828_142454_rotated/full/243,/0/default.jpg",
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://efa1ac75-666c-4ea8-ac8e-b7c59074e409",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://heyhussain.github.io/IIIF-workshop/images/20140828_142454_rotated/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://heyhussain.github.io/IIIF-workshop/images/20140828_142454_rotated",
+            "profile" : "http://iiif.io/api/image/2/level0.json"
+          },
+          "height" : 2944,
+          "width" : 7776
+        },
+        "on" : "http://0c1ca601-a667-4850-89a9-6e5551be77ed"
+      } ],
+      "related" : ""
+    } ]
+  } ],
+  "structures" : [ {
+    "@id" : "http://example.org/iiif/book1/range/top",
+    "@type" : "sc:Range",
+    "label" : "Table of Content",
+    "viewingHint" : "top",
+    "ranges" : [ "http://example.org/iiif/book1/range/intro", "http://example.org/iiif/book1/range/p2" ]
+  }, {
+    "@id" : "http://example.org/iiif/book1/range/intro",
+    "@type" : "sc:Range",
+    "label" : "P1",
+    "canvases" : [ "http://0e58078a-1a45-4db8-9897-9bd977285c67" ]
+  }, {
+    "@id" : "http://example.org/iiif/book1/range/p2",
+    "@type" : "sc:Range",
+    "label" : "Part 2",
+    "canvases" : [ "http://0c1ca601-a667-4850-89a9-6e5551be77ed" ]
+  } ]
+}

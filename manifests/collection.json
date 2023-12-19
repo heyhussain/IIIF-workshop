@@ -9,5 +9,9 @@
     "@type" : "sc:Manifest",
     "@id" : "https://heyhussain.github.io/IIIF-workshop/manifests/manifest.json",
     "label" : "Hussain's Japan Manifest"
+  }, {
+    "@type" : "sc:Manifest",
+    "@id" : "https://heyhussain.github.io/IIIF-workshop/manifests/manifestv2bodleian.json",
+    "label" : "Panoramas from Japan"
   } ]
 }

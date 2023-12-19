@@ -1,0 +1,124 @@
+{
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
+  "@id" : "https://heyhussain.github.io/IIIF-workshop/manifests/manifestv2bodleian.json",
+  "@type" : "sc:Manifest",
+  "label" : "Panoramas from Japan",
+  "metadata" : [ ],
+  "description" : [ {
+    "@value" : "A selection of panorama images from Japan",
+    "@language" : "en"
+  } ],
+  "license" : "https://creativecommons.org/licenses/by/3.0/",
+  "attribution" : "heyhussain",
+  "sequences" : [ {
+    "@id" : "http://ba04590a-d764-47a7-8d7b-aaa13c8cc933",
+    "@type" : "sc:Sequence",
+    "label" : "Normal Sequence",
+    "canvases" : [ {
+      "@id" : "http://fb6d6054-9f60-4a8c-a1a5-d6ede7b8ba56",
+      "@type" : "sc:Canvas",
+      "label" : "Koyasan",
+      "height" : 3008,
+      "width" : 9616,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://e98bf71c-dfe2-4134-981d-2fd0631bee4d",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://iiif.archivelab.org/iiif/20140905-101100/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.archivelab.org/iiif/20140905-101100",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json" ]
+          },
+          "height" : 3008,
+          "width" : 9616
+        },
+        "on" : "http://fb6d6054-9f60-4a8c-a1a5-d6ede7b8ba56"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://cf25f4f1-6e99-484f-8204-5a2a3c1e43c6",
+      "@type" : "sc:Canvas",
+      "label" : "otagi nenbutsu-ji temple",
+      "height" : 2896,
+      "width" : 19168,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://c5990e4a-57a9-4c40-905c-d59dccd580a9",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://heyhussain.github.io/Japan/images/20160905_140054/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://heyhussain.github.io/Japan/images/20160905_140054",
+            "profile" : "http://iiif.io/api/image/2/level0.json"
+          },
+          "height" : 2896,
+          "width" : 19168
+        },
+        "on" : "http://cf25f4f1-6e99-484f-8204-5a2a3c1e43c6"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://a80786fa-a9ff-4c4f-85e9-0b69677eae61",
+      "@type" : "sc:Canvas",
+      "label" : "Kyoto Golden Pavilion, Kinkakuji",
+      "height" : 2944,
+      "width" : 7776,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://87db0418-a53a-418c-a6c8-e47471fc4f9b",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://heyhussain.github.io/IIIF-workshop/images/20140828_142454_rotated/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://heyhussain.github.io/IIIF-workshop/images/20140828_142454_rotated",
+            "profile" : "http://iiif.io/api/image/2/level0.json"
+          },
+          "height" : 2944,
+          "width" : 7776
+        },
+        "on" : "http://a80786fa-a9ff-4c4f-85e9-0b69677eae61"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://114ec115-2451-4717-a0f5-a7dab9c62514",
+      "@type" : "sc:Canvas",
+      "label" : "View looking east from Tokyo Metropolitan Government Building, Shinjuku",
+      "height" : 3040,
+      "width" : 7760,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://79319113-e1c9-4843-823d-f86cbf106f38",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://iiif.archivelab.org/iiif/20160831-142221-rotated/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.archivelab.org/iiif/20160831-142221-rotated",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json" ]
+          },
+          "height" : 3040,
+          "width" : 7760
+        },
+        "on" : "http://114ec115-2451-4717-a0f5-a7dab9c62514"
+      } ],
+      "related" : ""
+    } ]
+  } ],
+  "structures" : [ ]
+}

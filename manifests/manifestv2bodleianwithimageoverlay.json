@@ -20,24 +20,7 @@
       "label" : "Koyasan",
       "height" : 3008,
       "width" : 9616,
-      "images" : [ {
-        "@id" : "https://framemark.vam.ac.uk/collections/2009BX5336",
-        "@type" : "oa:Annotation",
-        "motivation" : "sc:painting",
-        "resource" : {
-          "@id" : "https://framemark.vam.ac.uk/collections/2009BX5336/full/312,232/0/default.jpg",
-          "@type" : "dctypes:Image",
-          "format" : "image/jpeg",
-          "service" : {
-            "@context" : "http://iiif.io/api/image/2/context.json",
-            "@id" : "https://framemark.vam.ac.uk/collections/2009BX5336",
-            "profile" : [ "http://iiif.io/api/image/2/level1.json" ]
-          },
-          "height" : 1859,
-          "width" : 2500
-        },
-        "on" : "http://fb6d6054-9f60-4a8c-a1a5-d6ede7b8ba56#xywh=100,100,600,400"
-      }, {
+      "images" : [  {
         "@context" : "http://iiif.io/api/presentation/2/context.json",
         "@id" : "http://e98bf71c-dfe2-4134-981d-2fd0631bee4d",
         "@type" : "oa:Annotation",
@@ -90,6 +73,24 @@
       "height" : 2944,
       "width" : 7776,
       "images" : [ {
+        "@id" : "https://framemark.vam.ac.uk/collections/2009BX5336",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://framemark.vam.ac.uk/collections/2009BX5336/full/312,232/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://framemark.vam.ac.uk/collections/2009BX5336",
+            "profile" : [ "http://iiif.io/api/image/2/level1.json" ]
+          },
+          "height" : 1859,
+          "width" : 2500
+        },
+        "on" : "http://a80786fa-a9ff-4c4f-85e9-0b69677eae61#xywh=3315,642,312,232"
+      },
+      {
         "@context" : "http://iiif.io/api/presentation/2/context.json",
         "@id" : "http://87db0418-a53a-418c-a6c8-e47471fc4f9b",
         "@type" : "oa:Annotation",

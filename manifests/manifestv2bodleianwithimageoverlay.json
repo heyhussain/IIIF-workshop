@@ -135,7 +135,12 @@
         },
         "on" : "http://114ec115-2451-4717-a0f5-a7dab9c62514"
       } ],
-      "related" : ""
+      "related" : "",
+					"otherContent" : [ {
+						"@type" : "sc:AnnotationList",
+						"@id" : "https://heyhussain.github.io/Japan/annotations/tokyoannotannotations.json",
+						"label" : "Hosted Annotations for Tokyo"
+					  } ]
     } ]
   } ],
   "structures" : [ ]

@@ -30,7 +30,7 @@
           "format" : "image/jpeg",
           "service" : {
             "@context" : "http://iiif.io/api/image/2/context.json",
-            "@id" : "https://framemark.vam.ac.uk/collections/2009BX5336/info.json",
+            "@id" : "https://framemark.vam.ac.uk/collections/2009BX5336",
             "profile" : [ "http://iiif.io/api/image/2/level1.json" ]
           },
           "height" : 1859,
